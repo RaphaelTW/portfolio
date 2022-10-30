@@ -1,0 +1,130 @@
+:root {
+    --roxo-01: rgba(51, 1, 121, 0.78);
+    --roxo-02: #4e049d;
+    --roxo-03: #0b0418;
+    --roxo-04: #211a2c;
+    --roxo-05: #150e21;
+    --roxo-06: #220f3d;
+}
+
+a {
+    color: currentColor !important;
+}
+
+body {
+    margin-top: 20px;
+    text-align: left;
+    background-color: var(--roxo-03) !important;
+    color: #ffffff !important;
+}
+
+.main-body {
+    padding: 15px;
+}
+
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06) !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: var(--roxo-01) !important;
+    background-clip: border-box !important;
+    /*border: 0 solid rgba(0,0,0,.125);*/
+    border-radius: .25rem !important;
+    border-width: 0 5px 5px 0 !important;
+    border-style: solid !important;
+    border-color: rgb(0, 204, 0) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--roxo-01) !important;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 204, 0, 0.77) !important;
+    color: #000000 !important;
+}
+
+.navbar-toggler {
+    background-color: #FFFFFF;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+.gutters-sm {
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.gutters-sm > .col, .gutters-sm > [class*=col-] {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.mb-3, .my-3 {
+    margin-bottom: 1rem !important;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0 !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.shadow-none {
+    box-shadow: none !important;
+}
+
+.bg-secondary {
+    background-color: #00cc00 !important;
+}
+
+.bg-primary {
+    background-color: purple !important;
+}
+
+.dropdown-toggle {
+    color: #FFFFFF !important;
+    padding: 0.5rem !important;
+}
+
+.dropdown-toggle:active {
+    color: #00cc00 !important;
+}
+
+.btn-danger {
+    color: red !important;
+    background-color: white !important;
+    text-decoration: none !important;
+}
+
+.btn-danger:hover,
+.btn-danger:active {
+    color: white !important;
+    background-color: red !important;
+}
+
+.btn-success:hover,
+.btn-success:active {
+    color: #f9faf9 !important;
+    background-color: #005220 !important;
+}
+
+small {
+    color: rgba(53, 255, 0, 0.53) !important;
+}

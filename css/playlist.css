@@ -1,0 +1,69 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+
+#mobile-box {
+    width: 360px;
+}
+
+.card {
+    background: linear-gradient(to right, rgba(115, 1, 66, 0), rgba(51, 1, 121, 0)) !important;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+
+.card .view {
+    -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card h5 a {
+    color: #ffffff;
+}
+
+.card h5 a:hover {
+    color: #37e91c;
+}
+
+.card-body {
+    background: linear-gradient(to right, rgb(115, 1, 66), rgb(51, 1, 121)) !important;
+    border-radius: .25rem;
+    border-width: 0 5px 5px 0;
+    border-style: solid;
+    border-color: rgb(0, 204, 0);
+}
+
+#pButton {
+    float: left;
+}
+
+#timeline {
+    width: 90%;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#pButton {
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+#playhead {
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -3px;
+    background: black;
+    cursor: pointer;
+}

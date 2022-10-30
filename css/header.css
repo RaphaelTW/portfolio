@@ -1,0 +1,136 @@
+:root {
+    --roxo-01: rgba(51, 1, 121, 0.78);
+    --roxo-02: #4e049d;
+    --roxo-03: #0b0418;
+    --roxo-04: #211a2c;
+    --roxo-05: #150e21;
+    --roxo-06: #220f3d;
+}
+
+body {
+    background-color: var(--roxo-03) !important;
+    color: #ffffff !important;
+}
+
+.navbar {
+    background-size: 400% 400%;
+    background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033, #d74177);
+    animation: 12s myGradient infinite;
+    box-shadow: 3px 3px 20px #ff3352;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+    color: rgba(0, 204, 0, 0.77) !important;
+}
+
+.nav-link:active {
+    color: rgba(255, 241, 0, 0.77) !important;
+}
+
+/*[O que da animação no gradiente]*/
+@keyframes myGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.nav-item {
+    transition: 1s;
+}
+
+@keyframes myFlash {
+    0% {
+        opacity: 1;
+        text-shadow: transparent;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+        text-shadow: 2px 2px 20px #fff;
+    }
+}
+
+@keyframes myBackground {
+    0% {
+        background-position: 0% 50%;
+        opacity: 0%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+        opacity: 1;
+    }
+}
+
+
+@keyframes myLinear {
+    0% {
+        width: 50px;
+    }
+
+    100% {
+        width: 250px;
+    }
+}
+
+@keyframes myFlash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: .1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+nav {
+    transition: 3s;
+}
+
+@keyframes myAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.dropdown-menu {
+    background-color: var(--roxo-01);
+}
+
+.dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 204, 0, 0.77) !important;
+    color: #000000 !important;
+}

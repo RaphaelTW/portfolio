@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(to right, rgb(55, 233, 28), rgb(51, 1, 121)) !important;
+}
+
+.card-body {
+    background-color: rgba(78, 4, 157, 0.51) !important;
+    border-radius: .25rem;
+    border-width: 0 5px 5px 0;
+    border-style: solid;
+    border-color: rgb(0, 204, 0);
+}
+
+.btn-lg:hover {
+    background: linear-gradient(to right, rgb(51, 1, 121), rgb(55, 233, 28)) !important;
+}
+
+.btn-lg:active {
+    color: white !important;
+    background: linear-gradient(to right, rgb(55, 233, 28), rgb(51, 1, 121)) !important;
+}
