@@ -12,5 +12,8 @@
     <orderEntry type="library" name="jquery-1.10.2" level="application" />
     <orderEntry type="library" name="jquery-3.5.0" level="application" />
     <orderEntry type="library" name="es-module-shims" level="application" />
+    <orderEntry type="library" name="twitter-bootstrap" level="application" />
+    <orderEntry type="library" name="jquery-3.5.0" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
   </component>
 </module>
