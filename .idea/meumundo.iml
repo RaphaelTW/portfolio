@@ -15,5 +15,6 @@
     <orderEntry type="library" name="twitter-bootstrap" level="application" />
     <orderEntry type="library" name="jquery-3.5.0" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="@popperjs/core" level="application" />
   </component>
 </module>

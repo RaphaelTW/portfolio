@@ -1,6 +1,6 @@
 {
     "require": {
-        "twbs/bootstrap": "5.2.2",
-        "twbs/bootstrap-icons": "^1.9"
+        "twbs/bootstrap": "5.2.3",
+        "twbs/bootstrap-icons": "^1.10"
     }
 }

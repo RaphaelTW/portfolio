@@ -3,6 +3,10 @@ title: Braces asterisk
 categories:
   - Typography
 tags:
+  - text
+  - type
   - code
-  - css
+  - developer
+  - development
+  - software
 ---
